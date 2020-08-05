@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <title>留言板登录界面</title>
+</head>
+<body>
+    <!-- 界面 -->
+    <form action="login.action" method="post">
+        <!-- 图标布局 -->
+        <span class="usericon"><img src="images/userOff.png" alt=""></span>
+        <span class="pwpicon"><img src="images/pwpOff.png" alt=""></span>
+        <span class="eyeicon"><img src="images/eyeOff.png" alt=""></span>
+
+        <!-- 主题 -->
+        <h1>留言板登录界面</h1>
+
+        <!-- 账户，密码，表单 -->
+        账户：<input type="text" name="username" autofocus="autofocus" id="user" autocomplete="off"> <br>
+        密码：<input type="password" name="password" id="pwp" autocomplete="off">
+
+        <!-- 表单按钮 -->
+        <a href="register.html" id="register">注册</a>
+        <input class="submit" type="submit" value="登录">
+    </form>
+    <!-- 元素操作 -->
+    <script src="js/login.js"></script>
+
+
+</body>
+
+</html>

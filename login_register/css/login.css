@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+
+/* 图标 盒子 及 图标 大小 */
+span {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+}
+
+img {
+    width: 25px;
+    height: 25px;
+}
+
+/* form 盒子主体 */
+form {
+    position: relative;
+    margin: 100px auto;
+    padding: 20px;
+    padding-left: 40px;
+    width: 560px;
+    height: 320px;
+    font-size: 20px;
+    font-family: "小宋";
+    color: rgba(0, 0, 0, .3);
+    text-align: center;
+     border: 1px solid  rgba(0, 0, 255, .3);
+    transition: all 1s ease;
+}
+form:hover {
+    color: black;
+    border-color: transparent;
+    border-radius: 15px;
+    box-shadow: 10px 5px 100px rgba(0, 0, 0, .3);
+}
+/* 标题 */
+form h1 {
+    padding-left: 20px;
+    margin-bottom: 40px;
+    font-size: 30px;
+    color: rgba(0, 0, 0, .3);
+    transition: all 1s ease;
+}
+form:hover h1 {
+    color: blue;
+}
+
+form .usericon {
+    position: absolute;
+    top: 128px;
+    left: 55px;
+
+}
+
+form .pwpicon {
+    position: absolute;
+    top: 218px;
+    left: 55px;
+}
+
+input {
+    display: inline-block;
+    margin: 20px auto;
+    width: 400px;
+    height: 50px;
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+    outline: 0;
+    transition: all 0.5s ease;
+}
+
+input:hover {
+    border-bottom: 2px solid rgba(0, 0, 255, .3);
+}
+
+/* 按钮图标板块 */
+/* 登录按钮 */
+form .submit {
+    display: inline-block;
+    position: absolute;
+    bottom: 30px;
+    right: 150px;
+    margin: 0;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-family: "小宋";
+    color: rgba(0, 0, 0, .3);
+    border: 0;
+    border-radius: 20px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .3);
+    transition: all 0.3s ease;
+}
+form:hover .submit{
+    color: blue;
+    border: 1px solid rgba(0, 0, 255, .7);
+}
+form .submit:hover {
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    background-color: rgba(0, 0, 255, .7);
+}
+
+/*  input[type=text] {
+    w
+} */
+/* 注册按钮 */
+form>a {
+    position: absolute;
+    bottom: 30px;
+    right: 70px;
+    display: inline-block;
+    width: 50px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: gray;
+    transition: all 0.5s ease;
+}
+
+form>a:hover {
+    font-weight: bold;
+    color:blue;
+    text-decoration: underline;
+}
+
+/* eye 密码，显示与隐藏*/
+form .eyeicon {
+    position: absolute;
+    bottom: 105px;
+    right: 35px;
+}

@@ -1,0 +1,231 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 图标样式 */
+span {
+    display: inline-block;
+    margin-left: 30px;
+    width: 20px;
+    height: 20px;
+}
+
+span img {
+    width: 20px;
+    height: 20px;
+}
+
+/* 表单样式 */
+input {
+    border: 0;
+    outline: 0;
+    height: 50px;
+}
+
+/* 宽高 */
+.wh {
+    width: 600px;
+    height: 100px;
+    line-height: 100px;
+}
+
+/* 外围，框架 */
+.wrap {
+    margin: 100px auto;
+    padding: 0 40px;
+    width: 700px;
+    height: 520px;
+    font-size: 20px;
+    font-family: "小宋";
+    color: rgba(0, 0, 0, .3);
+    border: 1px solid rgba(0, 0, 255, .3);
+    transition: all 1s ease;
+}
+
+.wrap:hover {
+    color: black;
+    border-color: transparent;
+    border-radius: 15px;
+    box-shadow: 10px 5px 100px rgba(0, 0, 0, .3);
+}
+
+.wrap h1 {
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+    color: rgba(0, 0, 0, .3);
+    transition: all 1s ease;
+}
+.wrap:hover h1 {
+    color: blue;
+}
+
+/* user 模块 */
+.wrap .user {
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(161, 158, 158, 0.7);
+    /* background-color: yellow; */
+}
+
+.wrap .user .userIcon {
+    position: relative;
+    top: 2px;
+    left: -10px;
+}
+
+.wrap .user input {
+    width: 380px;
+}
+
+/* user right.png */
+.wrap .user .userTipsIcon {
+    position: absolute;
+    top: 5px;
+    right: 25px;
+}
+
+.wrap .user .userTips {
+    display: inline-block;
+    position: absolute;
+    top: -3px;
+    left: 10px;
+    width: 150px;
+    font-size: 14px;
+    /* 
+    background-color: yellow; */
+    color: gray;
+}
+
+/* / user 模块 */
+
+/* pwp 模块 */
+
+.wrap .pwp {
+    position: relative;
+    font-size: 18px;
+    text-align: center;
+    border-bottom: 1px solid rgba(161, 158, 158, 0.7);
+    /* background-color: blue; */
+}
+
+.wrap .pwp .pwpIcon {
+    position: relative;
+    top: 2px;
+    left: -10px;
+}
+
+.wrap .pwp input {
+    width: 380px;
+}
+
+/* pwp 提示图标 */
+.wrap .pwp .tipsIcon {
+    position: absolute;
+    top: 21px;
+    right: 13px;
+}
+
+/* pwp 提示信息 */
+.wrap .pwp .pwpTips {
+    display: inline-block;
+    position: absolute;
+    top: -18px;
+    left: -4px;
+    width: 150px;
+    font-size: 14px;
+    color: gray;
+}
+
+/* /pwp 模块 */
+/* repwp 模块 */
+.wrap .repwp {
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(161, 158, 158, 0.7);
+    /*  background-color: skyblue; */
+}
+
+.wrap .repwp .pwp2 {
+    margin-right: -24px;
+    width: 380px;
+}
+
+/* 确认密码 repwp right.png */
+.wrap .repwp .repwpIcon {
+    position: absolute;
+    top: 21px;
+    right: 14px;
+}
+
+.wrap .repwp .repwpTips {
+    display: inline-block;
+    position: absolute;
+    top: -16px;
+    left: 4px;
+    width: 150px;
+    font-size: 14px;
+    /* 
+    background-color: yellow; */
+    color: gray;
+}
+
+/* /repwp 模块 */
+/* footer 模块 */
+.wrap .footer {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.wrap .footer .submit {
+    display: inline-block;
+    margin-left: 170px;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-family: "小宋";
+    color: blue;
+    border: 0;
+    border-radius: 20px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 255, .7);
+    transition: all 0.3s ease;
+}
+
+.wrap .footer .submit:hover {
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    background-color: rgba(0, 0, 255, .7);
+}
+
+.wrap .footer>a {
+    display: inline-block;
+    margin-left: 20px;
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    text-align: center;
+    color: gray;
+    transition: all 0.5s ease;
+}
+
+.wrap .footer>a:hover {
+    font-weight: bold;
+    color: blue;
+    text-decoration: underline;
+}
+
+/* /footer 模块 */
+/* .error 样式 */
+.error {
+    font-weight: bold;
+    color: red;
+}

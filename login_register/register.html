@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/register.css">
+    <title>留言板注册页面t</title>
+</head>
+<style>
+    
+</style>
+
+<body>
+	
+    <!-- 外围 -->
+    <form action="register.action" class="wrap">
+        <!-- 标题 -->
+        <h1>留言板注册界面</h1>
+        <!-- 用户板块 -->
+        <div class="user wh">
+            <!-- 用户 icon -->
+            <span class="userIcon"><img id="userIcon" src="images/userOff.png" alt="" srcset=""></span>
+            账&nbsp;户 :           
+            <input type="text" name="username" id="userIpt" autocomplete="off">
+            <span class="userTipsIcon"><img id="userTipsIcon" src="" alt="" srcset=""><i class="userTips"
+                    id="userTips"></i></span>
+        </div>
+        <!-- 密码板块 -->
+        <div class="pwp wh">
+            <!-- 密码 icon -->
+            <span class="pwpIcon"><img id="pwpIcon" src="images/pwpOff.png" alt="" srcset=""></span>
+            密&nbsp;码 :                
+            <input type="password" name="password" id="pwpIpt" value="" autocomplete="off">
+            <span class="tipsIcon"><img class="tipsIcon" id="tipsIcon" src="" alt="" srcset="">
+                <i class="pwpTips" id="pwpTips"></i></span>
+
+        </div>
+        <!-- 确认密码板块 -->
+        <div class="repwp wh">
+            <!-- 确认密码 icon -->
+            确认密码 :                          <!-- 属性驱动，控制器Action里实例化分对象p.对应Person的字段属性 -->
+            <input class="pwp2" type="password" name="confirmPass" id="pwpReIpt" autocomplete="off">
+            <span class="repwpIcon"><img class="repwpIcon" id="repwpTipsIcon" src="" alt="" srcset="">
+                <i class="repwpTips" id="repwpTips"></i></span>
+        </div>
+        <!-- 提交控件板块 -->
+        <div class="footer">
+            <input class="submit" type="submit" value="注册" id="register" autocomplete="off">
+            <a href="login.html">返回登录界面&gt;</a>
+        </div>
+    </form>
+    <script src="js/register.js"></script>
+      
+</body>
+
+</html>
